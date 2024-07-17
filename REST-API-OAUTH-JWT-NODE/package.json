@@ -1,0 +1,41 @@
+{
+  "name": "rest-api-oauth-jwt-node",
+  "private": false,
+  "description": "New Swagger API Project A demo repository for implementation of REST API authentication using OAUTH, JWT in NODE JS, REACT JS, MY SQL workbench",
+  "keywords": [],
+  "main": "app.js",
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashM150/REST-API-OUTH-JWT-NODE.git"
+  },
+  "author": "Yash Moharil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YashM150/REST-API-OUTH-JWT-NODE/issues"
+  },
+  "homepage": "https://github.com/YashM150/REST-API-OUTH-JWT-NODE#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.2",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "swagger-express-mw": "^0.1.0",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  }
+}
